@@ -1,0 +1,122 @@
+.form-search {
+  display: flex;
+  background: #495057;
+  .input_search {
+    // 기본 스타일 초기화
+    background: none;
+    width:440px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: white;
+    &::placeholder {
+      color: #dee2e6;
+    }
+    // 버튼을 제외한 영역을 모두 차지하기
+    flex: 1;
+  }
+  .input-button {
+    // 기본 스타일 초기화
+    background: none;
+    outline: none;
+    border: none;
+    background: #868e96;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #adb5bd;
+    }
+  }
+}
+.input_div{
+  display:flex;
+  flex-direction: row;
+}
+.buttons {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+//body {
+//  background-color: #efefef;
+//}
+//.container {
+//  height: 100%;
+//  display: flex;
+//  justify-content: center;
+//}
+//
+//.loader {
+//  width: 100%;
+//  height: 100vh;
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//  font-weight: 300;
+//}
+//
+//.movies {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: flex-start;
+//  flex-wrap: wrap;
+//  padding: 50px;
+//  padding-top: 70px;
+//  width: 80%;
+//}
+//
+//.boards {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: flex-start;
+//  flex-wrap: wrap;
+//  padding: 50px;
+//  padding-top: 70px;
+//  width: 85%;
+//}
+//.movies button {
+//    padding:1px;
+//}
+//.input_search {
+//    width: 600px;
+//    margin: 0;
+//    height: 51px;
+//    background: #495057;
+//    border-bottom: 1px solid #d63461;
+//    border-radius: 0;
+//    border-top: 1px solid transparent;
+//    border-left: 1px solid transparent;
+//    border-right: 1px solid transparent;
+//    padding: 0 5px;
+//    position: relative;
+//    color:white
+//}
+//
+//.input_div {
+//    //background-color: #61dafb;
+//    text-align: center;
+//    color:white;
+//}
+//.input-button {
+//    background: none;
+//    outline: none;
+//    border: none;
+//    background: #868e96;
+//    color: white;
+//    padding-left: 1rem;
+//    padding-right: 1rem;
+//    font-size: 1.5rem;
+//    /*display: flex;*/
+//    align-items: center;
+//    cursor: pointer;
+//    transition: 0.1s background ease-in;
+//     background: #adb5bd;
+//}
