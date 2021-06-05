@@ -33,7 +33,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
         router: {
           // when request.headers.host == 'localhost:4000',
           // override target 'http://localhost:4000' to 'https://movie-app-2021.herokuapp.com'
-          'localhost:4000': 'https://movie-app-2021.herokuapp.com/yts',
+          'localhost:4000': 'https://movie-app-2021.herokuapp.com/',
         },
         followRedirects: true
       }),
